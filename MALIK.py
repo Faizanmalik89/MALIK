@@ -10,4 +10,3 @@ bit = platform.architecture()[0]
 if bit == '64bit':
  print('\033[1;91m[\033[1;97m✓\033[1;91m] \033[1;97m64Bit Found')
  import MALIK_enc
-elif bit == '32bit':
